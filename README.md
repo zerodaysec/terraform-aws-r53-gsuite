@@ -1,27 +1,13 @@
-# repo-template
+# AWS Route53 Gsuite Modiule
 
-[![CI](https://github.com/zerodaysec/terraform-template/actions/workflows/review-bot.yml/badge.svg)](https://github.com/zerodaysec/terraform-template/actions/workflows/review-bot.yml)
-
-Repo template with baked in goodies such as GitHub actions, CICD components and dependabot to auto-update resources for us.
+This module implelemts Route53 entries to setup MX records for hosting email on Gsuite.
 
 ## Features
 
-* Dependabot Updates
-  * Terraform
-  * GitHub-Actions
-* Github Actions
-  * Pylint/Python
-  * Terraform tf_fmt, tf_docs, tf_validate, tf_lint
-  * Docker build & test & push
-* docs
+* MX Records
 
-## More Info
+## Future
 
-<https://github.com/joelparkerhenderson/github-special-files-and-paths>
-
-## Usage
-
-* Fork this repo
-* Delete Dockerfile is this is not a docker app
-* Delete the script.py example
-* Delete the docs/ if no docs are needed
+* DKIM
+* DMARC
+* SOF
